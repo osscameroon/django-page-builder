@@ -1,0 +1,19 @@
+format 224
+
+classcanvas 128002 class_ref 128002 // StaticPage
+  classdiagramsettings member_max_width 0 end
+  xyz 168 111 2000
+end
+classcanvas 128130 class_ref 128130 // UploadedMedia
+  classdiagramsettings member_max_width 0 end
+  xyz 425 107 2000
+end
+classcanvas 128258 class_ref 134658 // Block
+  classdiagramsettings member_max_width 0 end
+  xyz 458 325 2000
+end
+classcanvas 128386 class_ref 134786 // BuilderProfile
+  classdiagramsettings member_max_width 0 end
+  xyz 163 335 2000
+end
+end

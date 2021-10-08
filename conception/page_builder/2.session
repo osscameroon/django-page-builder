@@ -1,0 +1,15 @@
+window_sizes 1800 910 450 1344 743 112
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 128002 // models
+    1344 743 100 A4 0 0
+end
+show_stereotypes
+selected attribute_ref 136322 // updated_at
+open
+  class_ref 128002 // StaticPage
+  class_ref 128130 // UploadedMedia
+  class_ref 134658 // Block
+  class_ref 134786 // BuilderProfile
+end
+end

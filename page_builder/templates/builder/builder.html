@@ -1,0 +1,38 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Django Page Builder</title>
+    <link rel="stylesheet" href="{% static 'page_builder/css/toastr.min.css' %}">
+    <link rel="stylesheet" href="{% static 'page_builder/css/grapes.min.css' %}">
+
+    <script src="{% static 'page_builder/js/jquery.min.js' %}"></script>
+    <script src="{% static 'page_builder/js/toastr.min.js' %}"></script>
+    <script src="{% static 'page_builder/js/grapes.min.js' %}"></script>
+
+  </head>
+  <body>
+  <div id="gjs">
+    <h1>Hello World Component!</h1>
+  </div>
+
+<script>
+  const editor = grapesjs.init({
+  // Indicate where to init the editor. You can also pass an HTMLElement
+  container: '#gjs',
+  // Get the content for the canvas directly from the element
+  // As an alternative we could use: `components: '<h1>Hello World Component!</h1>'`,
+  fromElement: true,
+  // Size of the editor
+  height: '300px',
+  width: 'auto',
+  // Disable the storage manager for the moment
+  storageManager: false,
+  // Avoid any default panel
+  panels: { defaults: [] },
+});
+
+</script>
+  </body>
+</html>
